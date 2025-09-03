@@ -7,19 +7,26 @@ Basic C-based kernel running on baremetal Cortex-M4 MCU with Earliest Deadline F
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
 
 ## 💾 Source Files
-**main.c:** Test cases and driver code
+**asm.s:** assembly code for handler functions (PendSV) and register operations
+
 **k_mem.c:** Dynamic memory allocation code with first-fit allocation
 
-## Header Files
-**k_mem.h: **
+**main.c:** Test cases and driver code
 
+**system_stm32f4xx.c:** handler functions and system calls
 
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
-## Installation
-
+## 📥 Installation
+Download directly from repo or fork and clone:
+1. Click Fork from top-right corner
+```
+  git clone https://github.com/danglevm/Baremetal-STM32-RTOS.git
+```
+Replace 
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
 
 ## 📷 Screenshots and Video 
+<img width="1241" height="966" alt="image" src="https://github.com/user-attachments/assets/7b3251da-0433-460e-91d2-2a86581bb40c" />
 
 
 
