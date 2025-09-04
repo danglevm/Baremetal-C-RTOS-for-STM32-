@@ -1,4 +1,4 @@
-# STM 32 Baremetal C RTOS 
+# STM32 Baremetal RTOS 
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/97dcd99c-9733-4fa2-a236-aee0da234665)
 
 ## 📄 Overview
@@ -18,11 +18,13 @@ Basic C-based kernel running on baremetal Cortex-M4 MCU with Earliest Deadline F
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
 ## 📥 Installation
 Download directly from repo or fork and clone:
-1. Click Fork from top-right corner
+1. Click Fork from top-right corner then clone the repo in top directory
 ```
-  git clone https://github.com/danglevm/Baremetal-STM32-RTOS.git
+git clone https://github.com/YOUR-USERNAME/baremetal-STM32-RTOS.git
 ```
-Replace 
+2. Replace `Core/` folder from top project STM32 directory with newly forked `Core/` or import New Project with cloned C source files 
+3. Build and download the binary onto the running STM32
+
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
 
 ## 📷 Screenshots and Video 
