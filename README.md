@@ -11,9 +11,11 @@ Basic C-based kernel running on baremetal Cortex-M4 MCU with Earliest Deadline F
 
 **k_mem.c:** Dynamic memory allocation code with first-fit allocation
 
+**k_task.c:** contains scheduler, kernel management, and bootup functions
+
 **main.c:** Test cases and driver code
 
-**system_stm32f4xx.c:** handler functions and system calls
+**system_stm32f4xx.c:** handler functions and system calls with pre-emption algorithm
 
 ![image](https://github.com/danglevm/2DJavaGame/assets/84720339/54814ca5-0f88-41e8-bff0-80267fe03b77)
 ## 📥 Installation
